@@ -73,7 +73,7 @@ This disables some features that overlap with type checking.
 {
   "parser": "@typescript-eslint/parser",
   "plugins": ["solid"],
-  "extends": ["eslint:recommended", "plugin:solid/typescript"]
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:solid/typescript"]
 }
 ```
 
